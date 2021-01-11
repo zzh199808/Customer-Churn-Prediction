@@ -100,9 +100,8 @@ Then we made SHAP Dependence Plots for these variables to identify churned custo
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20Internet%20Service.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20PaymentMethod.png)
 
-Note: Internet Service:(0: DSL, 1: Fiber optic, 2: No)
-
-Payment Method: (0: Bank transfer (automatic), 1: Credit card (automatic), 2: Electronic check, 3: Mailed check)
+> Note: Internet Service:(0: DSL, 1: Fiber optic, 2: No)
+> Payment Method: (0: Bank transfer (automatic), 1: Credit card (automatic), 2: Electronic check, 3: Mailed check)
 
 We found that most churned customers only stayed 15 months with the company; use Fiber Optic Internet service; have monthly charges higher than 70 dollars and their payment methods are automatic bank transfer and electronic check. 
 
