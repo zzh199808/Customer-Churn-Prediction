@@ -96,9 +96,16 @@ The graph indicates that Tenure, InternetService, MonthlyCharges and PaymentMeth
 Then we made SHAP Dependence Plots for these variables to identify churned customers’ characteristics by observing positive SHAP values. 
 
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20Internet%20Service.png)
+
+
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20MonthlyCharges.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20PaymentMethod.png)
+
+(0: Bank transfer (automatic), 1: Credit card (automatic), 2: Electronic check, 3: Mailed check)
+
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20tenure.png)
 
-We found that most churned customers only stayed 15 months with the company; use Fiber Optic Internet service; have monthly charges higher than 70 dollars and their payment methods are automatic bank transfer and electronic check. Since Tenure and InternetService are the most important features from the SHAP Waterfall plot, we suggest companies to focus on customers who stay less than 15 months and own Fiber Optic Service to decrease churn rate. 
+We found that most churned customers only stayed 15 months with the company; use Fiber Optic Internet service; have monthly charges higher than 70 dollars and their payment methods are automatic bank transfer and electronic check. 
+
+Since Tenure and InternetService are the most important features from the SHAP Waterfall plot, we suggest companies to focus on customers who stay less than 15 months and own Fiber Optic Service to decrease churn rate. 
 
