@@ -77,9 +77,11 @@ These graphs help us to decide the variables we put in the model: SeniorCitizen,
 We implemented logistic regression and random forest models to predict. 
 
 Logistic Regression: 
+
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Logistic%20Regression.JPG)
 
 Random Forest Classifier (After parameter tuning):
+
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Random%20Forest.JPG)
 
 Since Random Forest has a better accuracy and AUC score, we decided to choose Random Forest Model. 
