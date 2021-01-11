@@ -54,7 +54,7 @@ We first found there are 11 null values in TotalCharges. Since the dataset is bi
 ## EDA
 The variables are 16 categorical features with 6 binary features (Yes/No)：Gender, Partner, SeniorCitizen, Dependents, PhoneService, PaperlessBilling; 9 features with three unique values each (categories): MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV,  StreamingMovies, Contract and 1 feature with four unique values: PaymentMethod. 
 
-We draw stackedbar of these binary variables to see if they will affect the churn rate or not. 
+We draw stackedbar of these binary variables with the propotion of customers to see if they will affect the churn rate or not. 
 
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20Dependents%20vs%20Churn.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20Gender%20vs%20Churn.png)
@@ -65,5 +65,14 @@ We draw stackedbar of these binary variables to see if they will affect the chur
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20PhoneService%20vs%20Churn.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20SeniorCitizen%20vs%20Churn.png)
 
+Through looking at these graphs, we found Dependents and no Internet Service helped to lower the churn rate. At the same time, InternetService, PaperlessBilling, PaymentMethod, SeniorCitizen have affect on the churn rate.
+
+Furthermore, we made a correlation heatmap regarding churn. 
+
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Correlation%20Heatmap.png)
+
+These graphs help us to decide the variables we put in the model: SeniorCitizen, InternetService, PaymentMethod, tenure, MonthlyCharges. 
+
+## Model Construction
 
 
