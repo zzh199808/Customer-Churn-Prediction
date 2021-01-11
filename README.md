@@ -94,16 +94,16 @@ We created a SHAP Waterfall plot report to summarize the important features that
 The graph indicates that Tenure, InternetService, MonthlyCharges and PaymentMethod were the most crucial features for our churn prediction model. 
 
 Then we made SHAP Dependence Plots for these variables to identify churned customers’ characteristics by observing positive SHAP values. 
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20tenure.png)
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20MonthlyCharges.png)
 
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20Internet%20Service.png)
 
+(0: DSL, 1: Fiber optic, 2: No) 
 
-![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20MonthlyCharges.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20PaymentMethod.png)
 
 (0: Bank transfer (automatic), 1: Credit card (automatic), 2: Electronic check, 3: Mailed check)
-
-![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20tenure.png)
 
 We found that most churned customers only stayed 15 months with the company; use Fiber Optic Internet service; have monthly charges higher than 70 dollars and their payment methods are automatic bank transfer and electronic check. 
 
