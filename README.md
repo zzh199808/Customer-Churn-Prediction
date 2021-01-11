@@ -2,8 +2,8 @@
 ## Data Source
 https://www.kaggle.com/blastchar/telco-customer-churn
 
-## What is Churn Prediction?
-Churn prediction is analytical studies on the possibility of a customer abandoning a product or service. The goal is to understand and take steps to change it before the costumer gives up the product or service.
+## What is Customer Churn Prediction?
+Churn prediction is analytical studies on the possibility of a customer existing a product or service. The goal is to understand customers' reason of churn and make changes before the costumer gives up the product or service.
 
 ## Variables
 customerID : Customer ID
