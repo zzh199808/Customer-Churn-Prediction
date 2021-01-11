@@ -100,7 +100,7 @@ Then we made SHAP Dependence Plots for these variables to identify churned custo
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20Internet%20Service.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/SHAP%20PaymentMethod.png)
 
-> Internet Service:(0: DSL, 1: Fiber optic, 2: No)
+> Internet Service: (0: DSL, 1: Fiber optic, 2: No Internet Service)
 
 > Payment Method: (0: Bank transfer (automatic), 1: Credit card (automatic), 2: Electronic check, 3: Mailed check)
 
