@@ -3,7 +3,7 @@
 https://www.kaggle.com/blastchar/telco-customer-churn
 
 ## What is Customer Churn Prediction?
-Churn prediction is analytical studies on the possibility of a customer existing a product or service. The goal is to understand customers' reason of churn and make changes before the costumer gives up the product or service.
+Customer churn prediction is analytical studies on the possibility of a customer existing a product or service. The goal is to understand customers' reason of churn and make changes before the costumer gives up the product or service.
 
 ## Variables
 customerID : Customer ID
@@ -47,3 +47,10 @@ MonthlyCharges : The amount charged to the customer monthly
 TotalCharges : The total amount charged to the customer
 
 Churn : Whether the customer churned or not (Yes or No)
+
+## Data Cleaning 
+We first found there are 11 null values in TotalCharges. Since the dataset is big enough, we decided to delete there nulls. 
+
+## EDA
+
+
