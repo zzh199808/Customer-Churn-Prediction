@@ -58,4 +58,9 @@ We draw stackedbar of these binary variables to see if they will affect the chur
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20Dependents%20vs%20Churn.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20Gender%20vs%20Churn.png)
 ![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20InternetService%20vs%20Churn.png)
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20MultipleLines%20vs%20Churn.png)
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20PaperlessBilling%20vs%20Churn.png)
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20PaymentMethod%20vs%20Churn.png)
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20PhoneService%20vs%20Churn.png)
+![alt text](https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Stacked%20Bar%20Chart%20of%20SeniorCitizen%20vs%20Churn.png)
 
