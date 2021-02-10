@@ -1,6 +1,7 @@
 # Customer-Churn-Prediction
 
-## Full Report Link here: https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Final%20Report.pdf
+## Full Report Link here: 
+https://github.com/zzh199808/Customer-Churn-Prediction/blob/main/Final%20Report.pdf
 
 ## Data Source
 https://www.kaggle.com/blastchar/telco-customer-churn
